@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat on Second Screen for Twitch"
+  },
+  "extDescription": {
+    "message": "Watch Twitch streams in fullscreen on one monitor while the live chat opens automatically on your second screen."
+  },
+  "actionTitle": {
+    "message": "Open chat on the other screen"
+  },
+  "pageButton": {
+    "message": "Chat on other screen"
+  },
+  "pageButtonTitle": {
+    "message": "Open the chat on your other screen and put the stream in fullscreen ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Open a Twitch channel page (twitch.tv/channel-name) to use this feature."
+  },
+  "toastReload": {
+    "message": "The extension was updated: reload the page (F5) and try again."
+  },
+  "errOpenChat": {
+    "message": "Couldn't open the chat: $1"
+  },
+  "unknownError": {
+    "message": "unknown error"
+  },
+  "toastSingleScreen": {
+    "message": "Only one screen detected: the chat opened in a separate window, but fullscreen will hide it. Use Alt+Tab to switch."
+  },
+  "toastSameScreen": {
+    "message": "The chat opened on the same screen as the stream (saved screen). Change it in the extension menu."
+  },
+  "toastChatOpened": {
+    "message": "Chat opened on $1."
+  },
+  "promptChatOpened": {
+    "message": "The chat is open on $1. Click to watch the stream in fullscreen."
+  },
+  "promptDefault": {
+    "message": "The chat is open. Click to watch the stream in fullscreen."
+  },
+  "promptSingleScreen": {
+    "message": "Only one screen detected: the chat is in a separate window (Alt+Tab to reach it). Click to watch the stream in fullscreen."
+  },
+  "btnFullscreen": {
+    "message": "Go fullscreen"
+  },
+  "btnLater": {
+    "message": "Later"
+  },
+  "toastFullscreenRefused": {
+    "message": "The browser refused fullscreen. Use the player's fullscreen button."
+  },
+  "toastFullscreenExited": {
+    "message": "Fullscreen exited."
+  },
+  "btnBackToFullscreen": {
+    "message": "Back to fullscreen"
+  },
+  "errNoChannel": {
+    "message": "No Twitch channel detected."
+  },
+  "errNoDisplays": {
+    "message": "Unable to read the list of screens."
+  },
+  "screenLabel": {
+    "message": "Screen $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(primary)"
+  },
+  "popupLookingForTab": {
+    "message": "Looking for the Twitch tab…"
+  },
+  "popupOpenButton": {
+    "message": "Open chat on the other screen"
+  },
+  "popupShortcut": {
+    "message": "Shortcut on the Twitch page:"
+  },
+  "popupScreenLegend": {
+    "message": "Chat screen"
+  },
+  "popupLoadingScreens": {
+    "message": "Loading screens…"
+  },
+  "popupFullscreenNote": {
+    "message": "From this menu, the browser doesn't allow direct fullscreen: a “Go fullscreen” button will appear on the Twitch page."
+  },
+  "popupChannel": {
+    "message": "Channel: $1"
+  },
+  "popupNotChannel": {
+    "message": "Open a Twitch channel page (twitch.tv/channel-name), then click the extension again."
+  },
+  "popupOpening": {
+    "message": "Opening the chat…"
+  },
+  "popupAuto": {
+    "message": "Automatic (the other screen)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— the saved screen is no longer connected"
+  },
+  "popupLiveScreen": {
+    "message": "— stream screen"
+  },
+  "popupSingleScreen": {
+    "message": "Only one screen detected: the chat will open on the same screen."
+  },
+  "popupAutoHint": {
+    "message": "The chat will go to a different screen than the stream."
+  },
+  "popupSaved": {
+    "message": "Screen saved for next time."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

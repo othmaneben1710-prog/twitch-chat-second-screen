@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Simulation deux écrans</title></head>
+<body>
+<p>Simulation du service worker avec deux écrans factices (PC à gauche, TV à droite). Nécessite un petit serveur local (les fichiers sont chargés avec fetch).</p>
+<pre id="sortie">…</pre>
+<script src="../lib/ecrans.js"></script>
+<script src="mock-chrome.js"></script>
+<script src="../service-worker.js"></script>
+<script>
+(async function () {
+  const lignes = [];
+  // 1) Clic sur le bouton de la page (onglet dans la fenêtre 10, sur l'écran PC)
+  let r = await envoyerAuWorker({ type: "ouvrirChat", chaine: "zerator" }, { tab: { id: 5, windowId: 10 } });
+  lignes.push("== Clic sur la page ==", ...journal.splice(0), "réponse: " + JSON.stringify(r), "");
+  // 2) Deuxième clic : la fenêtre du chat est réutilisée
+  r = await envoyerAuWorker({ type: "ouvrirChat", chaine: "squeezie" }, { tab: { id: 5, windowId: 10 } });
+  lignes.push("== Deuxième clic (autre chaîne) ==", ...journal.splice(0), "réponse: " + JSON.stringify(r), "");
+  // 3) Depuis le popup, écran mémorisé = écran PC (le même que le live)
+  await chrome.storage.local.set({ ecranChat: { id: "1", bounds: { left: 0, top: 0, width: 1920, height: 1080 } } });
+  journal.splice(0);
+  r = await envoyerAuWorker({ type: "ouvrirChat", chaine: "zerator", tabId: 5, windowId: 10, depuisPopup: true }, {});
+  lignes.push("== Popup, écran mémorisé = écran du live ==", ...journal.splice(0), "réponse: " + JSON.stringify(r));
+  document.getElementById("sortie").textContent = lignes.join("\n");
+})();
+</script>
+</body>
+</html>

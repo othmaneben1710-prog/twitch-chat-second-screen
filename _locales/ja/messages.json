@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch用 セカンドスクリーンチャット"
+  },
+  "extDescription": {
+    "message": "1台のモニターでTwitch配信を全画面で視聴しながら、ライブチャットを2台目の画面に自動で開きます。"
+  },
+  "actionTitle": {
+    "message": "チャットを別の画面で開く"
+  },
+  "pageButton": {
+    "message": "チャットを別の画面へ"
+  },
+  "pageButtonTitle": {
+    "message": "チャットを別の画面で開き、配信を全画面表示にします（$1）"
+  },
+  "toastWrongPage": {
+    "message": "この機能を使うには、Twitchのチャンネルページ（twitch.tv/チャンネル名）を開いてください。"
+  },
+  "toastReload": {
+    "message": "拡張機能が更新されました。ページを再読み込み（F5）してから、もう一度お試しください。"
+  },
+  "errOpenChat": {
+    "message": "チャットを開けませんでした：$1"
+  },
+  "unknownError": {
+    "message": "不明なエラー"
+  },
+  "toastSingleScreen": {
+    "message": "画面が1つしか検出されませんでした。チャットは別ウィンドウで開きましたが、全画面表示で隠れます。Alt+Tabで切り替えてください。"
+  },
+  "toastSameScreen": {
+    "message": "チャットが配信と同じ画面で開きました（保存された画面）。拡張機能のメニューで変更してください。"
+  },
+  "toastChatOpened": {
+    "message": "チャットを開きました：$1"
+  },
+  "promptChatOpened": {
+    "message": "チャットを開きました：$1。クリックすると配信を全画面で視聴できます。"
+  },
+  "promptDefault": {
+    "message": "チャットを開きました。クリックすると配信を全画面で視聴できます。"
+  },
+  "promptSingleScreen": {
+    "message": "画面が1つしか検出されませんでした。チャットは別ウィンドウにあります（Alt+Tabで移動）。クリックすると配信を全画面で視聴できます。"
+  },
+  "btnFullscreen": {
+    "message": "全画面表示"
+  },
+  "btnLater": {
+    "message": "後で"
+  },
+  "toastFullscreenRefused": {
+    "message": "ブラウザが全画面表示を拒否しました。プレーヤーの全画面ボタンを使ってください。"
+  },
+  "toastFullscreenExited": {
+    "message": "全画面表示を終了しました。"
+  },
+  "btnBackToFullscreen": {
+    "message": "全画面表示に戻る"
+  },
+  "errNoChannel": {
+    "message": "Twitchチャンネルが見つかりません。"
+  },
+  "errNoDisplays": {
+    "message": "画面の一覧を取得できませんでした。"
+  },
+  "screenLabel": {
+    "message": "画面 $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "（メイン）"
+  },
+  "popupLookingForTab": {
+    "message": "Twitchのタブを探しています…"
+  },
+  "popupOpenButton": {
+    "message": "チャットを別の画面で開く"
+  },
+  "popupShortcut": {
+    "message": "Twitchページでのショートカット："
+  },
+  "popupScreenLegend": {
+    "message": "チャットを表示する画面"
+  },
+  "popupLoadingScreens": {
+    "message": "画面を読み込み中…"
+  },
+  "popupFullscreenNote": {
+    "message": "このメニューからは全画面表示を直接開始できません。Twitchページに「全画面表示」ボタンが表示されます。"
+  },
+  "popupChannel": {
+    "message": "チャンネル：$1"
+  },
+  "popupNotChannel": {
+    "message": "Twitchのチャンネルページ（twitch.tv/チャンネル名）を開いてから、もう一度拡張機能をクリックしてください。"
+  },
+  "popupOpening": {
+    "message": "チャットを開いています…"
+  },
+  "popupAuto": {
+    "message": "自動（もう一方の画面）"
+  },
+  "popupSavedUnplugged": {
+    "message": "— 保存した画面は接続されていません"
+  },
+  "popupLiveScreen": {
+    "message": "— 配信中の画面"
+  },
+  "popupSingleScreen": {
+    "message": "画面が1つしか検出されませんでした。チャットは同じ画面で開きます。"
+  },
+  "popupAutoHint": {
+    "message": "チャットは配信とは別の画面で開きます。"
+  },
+  "popupSaved": {
+    "message": "次回のために画面を保存しました。"
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

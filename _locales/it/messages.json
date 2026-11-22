@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat sul secondo schermo per Twitch"
+  },
+  "extDescription": {
+    "message": "Guarda le live di Twitch a schermo intero su un monitor mentre la chat si apre automaticamente sul tuo secondo schermo."
+  },
+  "actionTitle": {
+    "message": "Apri la chat sull'altro schermo"
+  },
+  "pageButton": {
+    "message": "Chat sull'altro schermo"
+  },
+  "pageButtonTitle": {
+    "message": "Apre la chat sull'altro schermo e mette la live a schermo intero ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Apri la pagina di un canale Twitch (twitch.tv/nome-canale) per usare questa funzione."
+  },
+  "toastReload": {
+    "message": "L'estensione è stata aggiornata: ricarica la pagina (F5) e riprova."
+  },
+  "errOpenChat": {
+    "message": "Impossibile aprire la chat: $1"
+  },
+  "unknownError": {
+    "message": "errore sconosciuto"
+  },
+  "toastSingleScreen": {
+    "message": "Rilevato un solo schermo: la chat si è aperta in una finestra separata, ma lo schermo intero la coprirà. Usa Alt+Tab per passare dall'una all'altra."
+  },
+  "toastSameScreen": {
+    "message": "La chat si è aperta sullo stesso schermo della live (schermo salvato). Cambialo nel menu dell'estensione."
+  },
+  "toastChatOpened": {
+    "message": "Chat aperta: $1."
+  },
+  "promptChatOpened": {
+    "message": "La chat è aperta: $1. Clicca per guardare la live a schermo intero."
+  },
+  "promptDefault": {
+    "message": "La chat è aperta. Clicca per guardare la live a schermo intero."
+  },
+  "promptSingleScreen": {
+    "message": "Rilevato un solo schermo: la chat è in una finestra separata (Alt+Tab per raggiungerla). Clicca per guardare la live a schermo intero."
+  },
+  "btnFullscreen": {
+    "message": "Schermo intero"
+  },
+  "btnLater": {
+    "message": "Più tardi"
+  },
+  "toastFullscreenRefused": {
+    "message": "Il browser ha rifiutato lo schermo intero. Usa il pulsante schermo intero del player."
+  },
+  "toastFullscreenExited": {
+    "message": "Schermo intero chiuso."
+  },
+  "btnBackToFullscreen": {
+    "message": "Torna a schermo intero"
+  },
+  "errNoChannel": {
+    "message": "Nessun canale Twitch rilevato."
+  },
+  "errNoDisplays": {
+    "message": "Impossibile leggere l'elenco degli schermi."
+  },
+  "screenLabel": {
+    "message": "Schermo $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(principale)"
+  },
+  "popupLookingForTab": {
+    "message": "Ricerca della scheda Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Apri la chat sull'altro schermo"
+  },
+  "popupShortcut": {
+    "message": "Scorciatoia sulla pagina Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Schermo della chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Caricamento degli schermi…"
+  },
+  "popupFullscreenNote": {
+    "message": "Da questo menu il browser non consente lo schermo intero diretto: sulla pagina Twitch apparirà un pulsante «Schermo intero»."
+  },
+  "popupChannel": {
+    "message": "Canale: $1"
+  },
+  "popupNotChannel": {
+    "message": "Apri la pagina di un canale Twitch (twitch.tv/nome-canale), poi clicca di nuovo sull'estensione."
+  },
+  "popupOpening": {
+    "message": "Apertura della chat…"
+  },
+  "popupAuto": {
+    "message": "Automatico (l'altro schermo)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— lo schermo salvato non è più collegato"
+  },
+  "popupLiveScreen": {
+    "message": "— schermo della live"
+  },
+  "popupSingleScreen": {
+    "message": "Rilevato un solo schermo: la chat si aprirà sullo stesso schermo."
+  },
+  "popupAutoHint": {
+    "message": "La chat andrà su uno schermo diverso da quello della live."
+  },
+  "popupSaved": {
+    "message": "Schermo salvato per la prossima volta."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Maiusc"
+  }
+}

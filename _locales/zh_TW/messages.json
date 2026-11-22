@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch 第二螢幕聊天室"
+  },
+  "extDescription": {
+    "message": "在一台螢幕上全螢幕觀看 Twitch 實況，同時在第二台螢幕上自動開啟聊天室。"
+  },
+  "actionTitle": {
+    "message": "在另一台螢幕開啟聊天室"
+  },
+  "pageButton": {
+    "message": "在另一台螢幕開啟聊天室"
+  },
+  "pageButtonTitle": {
+    "message": "在另一台螢幕開啟聊天室，並將實況切換為全螢幕（$1）"
+  },
+  "toastWrongPage": {
+    "message": "請開啟 Twitch 頻道頁面（twitch.tv/頻道名稱）以使用此功能。"
+  },
+  "toastReload": {
+    "message": "擴充功能已更新：請重新整理頁面（F5）後再試一次。"
+  },
+  "errOpenChat": {
+    "message": "無法開啟聊天室：$1"
+  },
+  "unknownError": {
+    "message": "未知錯誤"
+  },
+  "toastSingleScreen": {
+    "message": "只偵測到一台螢幕：聊天室已在獨立視窗中開啟，但會被全螢幕畫面遮住。請使用 Alt+Tab 切換。"
+  },
+  "toastSameScreen": {
+    "message": "聊天室在與實況相同的螢幕上開啟（已儲存的螢幕）。請在擴充功能選單中變更。"
+  },
+  "toastChatOpened": {
+    "message": "已開啟聊天室：$1"
+  },
+  "promptChatOpened": {
+    "message": "聊天室已開啟：$1。點擊即可全螢幕觀看實況。"
+  },
+  "promptDefault": {
+    "message": "聊天室已開啟。點擊即可全螢幕觀看實況。"
+  },
+  "promptSingleScreen": {
+    "message": "只偵測到一台螢幕：聊天室在獨立視窗中（使用 Alt+Tab 切換）。點擊即可全螢幕觀看實況。"
+  },
+  "btnFullscreen": {
+    "message": "全螢幕"
+  },
+  "btnLater": {
+    "message": "稍後"
+  },
+  "toastFullscreenRefused": {
+    "message": "瀏覽器拒絕了全螢幕。請使用播放器的全螢幕按鈕。"
+  },
+  "toastFullscreenExited": {
+    "message": "已結束全螢幕。"
+  },
+  "btnBackToFullscreen": {
+    "message": "返回全螢幕"
+  },
+  "errNoChannel": {
+    "message": "未偵測到 Twitch 頻道。"
+  },
+  "errNoDisplays": {
+    "message": "無法讀取螢幕清單。"
+  },
+  "screenLabel": {
+    "message": "螢幕 $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "（主螢幕）"
+  },
+  "popupLookingForTab": {
+    "message": "正在尋找 Twitch 分頁…"
+  },
+  "popupOpenButton": {
+    "message": "在另一台螢幕開啟聊天室"
+  },
+  "popupShortcut": {
+    "message": "Twitch 頁面快捷鍵："
+  },
+  "popupScreenLegend": {
+    "message": "聊天室螢幕"
+  },
+  "popupLoadingScreens": {
+    "message": "正在載入螢幕…"
+  },
+  "popupFullscreenNote": {
+    "message": "從此選單無法直接進入全螢幕：Twitch 頁面上會出現「全螢幕」按鈕。"
+  },
+  "popupChannel": {
+    "message": "頻道：$1"
+  },
+  "popupNotChannel": {
+    "message": "請開啟 Twitch 頻道頁面（twitch.tv/頻道名稱），然後再次點擊擴充功能。"
+  },
+  "popupOpening": {
+    "message": "正在開啟聊天室…"
+  },
+  "popupAuto": {
+    "message": "自動（另一台螢幕）"
+  },
+  "popupSavedUnplugged": {
+    "message": "— 已儲存的螢幕已中斷連線"
+  },
+  "popupLiveScreen": {
+    "message": "— 實況所在螢幕"
+  },
+  "popupSingleScreen": {
+    "message": "只偵測到一台螢幕：聊天室將在同一台螢幕上開啟。"
+  },
+  "popupAutoHint": {
+    "message": "聊天室將在與實況不同的螢幕上開啟。"
+  },
+  "popupSaved": {
+    "message": "已儲存螢幕，供下次使用。"
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Tests — choix de l'écran</title></head>
+<body>
+<pre id="sortie">Tests non lancés</pre>
+<script src="../lib/ecrans.js"></script>
+<script>
+// Ouvre ce fichier dans le navigateur (ou en mode headless) : le résultat s'affiche dans la page.
+const lignes = [];
+let echecs = 0;
+function verifier(nom, condition, detail) {
+  if (condition) lignes.push("OK     " + nom);
+  else { echecs++; lignes.push("ECHEC  " + nom + (detail ? "  -> " + detail : "")); }
+}
+function ecran(id, left, top, width, height, extra) {
+  return Object.assign({
+    id: id, name: "", isEnabled: true, isPrimary: false, mirroringSourceId: "",
+    bounds: { left, top, width, height },
+    workArea: { left, top, width, height: height - 40 },
+  }, extra || {});
+}
+const E = Ecrans;
+
+// --- URL Twitch ---
+verifier("chaîne simple", E.chaineDepuisUrl("https://www.twitch.tv/ZeratoR") === "zerator");
+verifier("chaîne avec paramètres", E.chaineDepuisUrl("https://www.twitch.tv/kamet0?sr=a") === "kamet0");
+verifier("chaîne avec / final", E.chaineDepuisUrl("https://www.twitch.tv/squeezie/") === "squeezie");
+verifier("page d'accueil refusée", E.chaineDepuisUrl("https://www.twitch.tv/") === null);
+verifier("directory refusé", E.chaineDepuisUrl("https://www.twitch.tv/directory") === null);
+verifier("popout refusé", E.chaineDepuisUrl("https://www.twitch.tv/popout/abc/chat?popout=") === null);
+verifier("sous-page refusée", E.chaineDepuisUrl("https://www.twitch.tv/abc/videos") === null);
+verifier("autre site refusé", E.chaineDepuisUrl("https://example.com/abc") === null);
+verifier("URL invalide refusée", E.chaineDepuisUrl("pas une url") === null);
+verifier("URL du chat popout",
+  E.urlChatPopout("zerator") === "https://www.twitch.tv/popout/zerator/chat?popout=");
+
+// --- Deux écrans côte à côte : principal à gauche, second à droite ---
+const A = ecran("A", 0, 0, 1920, 1080, { isPrimary: true });
+const B = ecran("B", 1920, 0, 1920, 1080);
+const deux = [A, B];
+const fenSurA = { left: 100, top: 100, width: 1200, height: 800 };
+const fenSurB = { left: 2000, top: 50, width: 1500, height: 900 };
+const fenMaxA = { left: -8, top: -8, width: 1936, height: 1056 }; // fenêtre agrandie sous Windows
+
+verifier("fenêtre sur A détectée", E.ecranDeFenetre(deux, fenSurA) === A);
+verifier("fenêtre sur B détectée", E.ecranDeFenetre(deux, fenSurB) === B);
+verifier("fenêtre agrandie (-8,-8) sur A", E.ecranDeFenetre(deux, fenMaxA) === A);
+verifier("fenêtre à cheval : écran majoritaire",
+  E.ecranDeFenetre(deux, { left: 1500, top: 0, width: 1000, height: 600 }) === B);
+verifier("fenêtre hors écran : écran le plus proche",
+  E.ecranDeFenetre(deux, { left: 5000, top: 0, width: 400, height: 400 }) === B);
+verifier("fenêtre inconnue : écran principal", E.ecranDeFenetre(deux, null) === A);
+
+let c = E.choisirEcranChat(deux, A, null);
+verifier("live sur A -> chat sur B", c.ecran === B && c.raison === "auto" && !c.ecranUnique && !c.memeEcran);
+c = E.choisirEcranChat(deux, B, null);
+verifier("live sur B -> chat sur A", c.ecran === A && c.raison === "auto");
+
+// --- Écran secondaire à gauche (coordonnées négatives) ---
+const G = ecran("G", -1280, 100, 1280, 1024);
+c = E.choisirEcranChat([A, G], E.ecranDeFenetre([A, G], fenMaxA), null);
+verifier("écran à gauche (coord. négatives)", c.ecran === G);
+verifier("fenêtre sur l'écran de gauche détectée",
+  E.ecranDeFenetre([A, G], { left: -1200, top: 200, width: 800, height: 600 }) === G);
+
+// --- Un seul écran ---
+c = E.choisirEcranChat([A], A, null);
+verifier("un seul écran : ouvre quand même", c.ecran === A && c.ecranUnique && c.memeEcran && c.raison === "unique");
+
+// --- Aucun écran ---
+c = E.choisirEcranChat([], null, null);
+verifier("aucun écran : pas de choix", c.ecran === null);
+
+// --- Écran mémorisé ---
+c = E.choisirEcranChat(deux, B, { id: "A", bounds: A.bounds });
+verifier("écran mémorisé utilisé", c.ecran === A && c.raison === "memorise" && !c.memeEcran);
+c = E.choisirEcranChat(deux, A, { id: "A", bounds: A.bounds });
+verifier("mémorisé = écran du live : signalé", c.ecran === A && c.memeEcran);
+c = E.choisirEcranChat(deux, A, { id: "ancien-id", bounds: { left: 1920, top: 0, width: 1920, height: 1080 } });
+verifier("id changé mais mêmes limites : retrouvé", c.ecran === B && c.raison === "memorise");
+c = E.choisirEcranChat(deux, A, { id: "debranche", bounds: { left: 9999, top: 0, width: 800, height: 600 } });
+verifier("écran mémorisé débranché : retour en auto", c.ecran === B && c.raison === "auto");
+
+// --- Trois écrans ---
+const D = ecran("D", 3840, 0, 1920, 1080);
+c = E.choisirEcranChat([A, B, D], A, null);
+verifier("3 écrans, live sur principal : le plus à gauche des autres", c.ecran === B);
+c = E.choisirEcranChat([A, B, D], B, null);
+verifier("3 écrans, live sur B : préfère le principal", c.ecran === A);
+
+// --- Écrans en miroir ou désactivés ---
+const M = ecran("M", 0, 0, 1920, 1080, { mirroringSourceId: "A" });
+c = E.choisirEcranChat([A, M], A, null);
+verifier("écran en miroir ignoré", c.ecran === A && c.ecranUnique);
+const X = ecran("X", 1920, 0, 1920, 1080, { isEnabled: false });
+c = E.choisirEcranChat([A, X], A, null);
+verifier("écran désactivé ignoré", c.ecran === A && c.ecranUnique);
+
+// --- Limites de la fenêtre ---
+const l = E.limitesFenetre(B);
+verifier("limites = zone de travail (sans barre des tâches)",
+  l.left === 1920 && l.top === 0 && l.width === 1920 && l.height === 1040, JSON.stringify(l));
+
+// --- Libellés ---
+verifier("libellé écran principal (secours anglais)", E.libelleEcran(A, 0) === "Screen 1 — 1920 × 1080 (primary)", E.libelleEcran(A, 0));
+const fauxFr = (cle, v) => cle === "screenLabel" ? "Écran " + v[0] + " — " + v[1] + " × " + v[2] : "(principal)";
+verifier("libellé avec traduction fournie", E.libelleEcran(B, 1, fauxFr) === "Écran 2 — 1920 × 1080", E.libelleEcran(B, 1, fauxFr));
+
+const total = lignes.length;
+lignes.push("");
+lignes.push(echecs === 0 ? "RESULTAT: TOUS LES TESTS PASSENT (" + total + ")" : "RESULTAT: " + echecs + " ECHEC(S)");
+document.getElementById("sortie").textContent = lignes.join("\n");
+</script>
+</body>
+</html>

@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat en segunda pantalla para Twitch"
+  },
+  "extDescription": {
+    "message": "Mira Twitch en pantalla completa en un monitor mientras el chat del directo se abre automáticamente en tu segunda pantalla."
+  },
+  "actionTitle": {
+    "message": "Abrir el chat en la otra pantalla"
+  },
+  "pageButton": {
+    "message": "Chat en la otra pantalla"
+  },
+  "pageButtonTitle": {
+    "message": "Abre el chat en tu otra pantalla y pone el directo en pantalla completa ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Abre la página de un canal de Twitch (twitch.tv/nombre-del-canal) para usar esta función."
+  },
+  "toastReload": {
+    "message": "La extensión se ha actualizado: recarga la página (F5) y vuelve a intentarlo."
+  },
+  "errOpenChat": {
+    "message": "No se pudo abrir el chat: $1"
+  },
+  "unknownError": {
+    "message": "error desconocido"
+  },
+  "toastSingleScreen": {
+    "message": "Solo se detectó una pantalla: el chat se abrió en una ventana aparte, pero la pantalla completa lo ocultará. Usa Alt+Tab para cambiar."
+  },
+  "toastSameScreen": {
+    "message": "El chat se abrió en la misma pantalla que el directo (pantalla guardada). Cámbiala en el menú de la extensión."
+  },
+  "toastChatOpened": {
+    "message": "Chat abierto en $1."
+  },
+  "promptChatOpened": {
+    "message": "El chat está abierto en $1. Haz clic para ver el directo en pantalla completa."
+  },
+  "promptDefault": {
+    "message": "El chat está abierto. Haz clic para ver el directo en pantalla completa."
+  },
+  "promptSingleScreen": {
+    "message": "Solo se detectó una pantalla: el chat está en una ventana aparte (Alt+Tab para ir a ella). Haz clic para ver el directo en pantalla completa."
+  },
+  "btnFullscreen": {
+    "message": "Pantalla completa"
+  },
+  "btnLater": {
+    "message": "Más tarde"
+  },
+  "toastFullscreenRefused": {
+    "message": "El navegador rechazó la pantalla completa. Usa el botón de pantalla completa del reproductor."
+  },
+  "toastFullscreenExited": {
+    "message": "Has salido de la pantalla completa."
+  },
+  "btnBackToFullscreen": {
+    "message": "Volver a pantalla completa"
+  },
+  "errNoChannel": {
+    "message": "No se detectó ningún canal de Twitch."
+  },
+  "errNoDisplays": {
+    "message": "No se pudo leer la lista de pantallas."
+  },
+  "screenLabel": {
+    "message": "Pantalla $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(principal)"
+  },
+  "popupLookingForTab": {
+    "message": "Buscando la pestaña de Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Abrir el chat en la otra pantalla"
+  },
+  "popupShortcut": {
+    "message": "Atajo en la página de Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Pantalla del chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Cargando pantallas…"
+  },
+  "popupFullscreenNote": {
+    "message": "Desde este menú, el navegador no permite la pantalla completa directa: aparecerá un botón «Pantalla completa» en la página de Twitch."
+  },
+  "popupChannel": {
+    "message": "Canal: $1"
+  },
+  "popupNotChannel": {
+    "message": "Abre la página de un canal de Twitch (twitch.tv/nombre-del-canal) y vuelve a hacer clic en la extensión."
+  },
+  "popupOpening": {
+    "message": "Abriendo el chat…"
+  },
+  "popupAuto": {
+    "message": "Automático (la otra pantalla)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— la pantalla guardada ya no está conectada"
+  },
+  "popupLiveScreen": {
+    "message": "— pantalla del directo"
+  },
+  "popupSingleScreen": {
+    "message": "Solo se detectó una pantalla: el chat se abrirá en la misma pantalla."
+  },
+  "popupAutoHint": {
+    "message": "El chat irá a una pantalla distinta de la del directo."
+  },
+  "popupSaved": {
+    "message": "Pantalla guardada para la próxima vez."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Mayús"
+  }
+}

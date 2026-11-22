@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat op tweede scherm voor Twitch"
+  },
+  "extDescription": {
+    "message": "Bekijk Twitch-streams schermvullend op één monitor terwijl de livechat automatisch op je tweede scherm opent."
+  },
+  "actionTitle": {
+    "message": "Chat openen op het andere scherm"
+  },
+  "pageButton": {
+    "message": "Chat op ander scherm"
+  },
+  "pageButtonTitle": {
+    "message": "Opent de chat op je andere scherm en zet de stream op volledig scherm ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Open de pagina van een Twitch-kanaal (twitch.tv/kanaalnaam) om deze functie te gebruiken."
+  },
+  "toastReload": {
+    "message": "De extensie is bijgewerkt: laad de pagina opnieuw (F5) en probeer het nog eens."
+  },
+  "errOpenChat": {
+    "message": "Kan de chat niet openen: $1"
+  },
+  "unknownError": {
+    "message": "onbekende fout"
+  },
+  "toastSingleScreen": {
+    "message": "Slechts één scherm gevonden: de chat is in een apart venster geopend, maar volledig scherm verbergt het. Wissel met Alt+Tab."
+  },
+  "toastSameScreen": {
+    "message": "De chat is op hetzelfde scherm als de stream geopend (opgeslagen scherm). Wijzig dit in het menu van de extensie."
+  },
+  "toastChatOpened": {
+    "message": "Chat geopend op $1."
+  },
+  "promptChatOpened": {
+    "message": "De chat is geopend op $1. Klik om de stream op volledig scherm te bekijken."
+  },
+  "promptDefault": {
+    "message": "De chat is geopend. Klik om de stream op volledig scherm te bekijken."
+  },
+  "promptSingleScreen": {
+    "message": "Slechts één scherm gevonden: de chat staat in een apart venster (Alt+Tab om erheen te gaan). Klik om de stream op volledig scherm te bekijken."
+  },
+  "btnFullscreen": {
+    "message": "Volledig scherm"
+  },
+  "btnLater": {
+    "message": "Later"
+  },
+  "toastFullscreenRefused": {
+    "message": "De browser heeft volledig scherm geweigerd. Gebruik de knop voor volledig scherm van de speler."
+  },
+  "toastFullscreenExited": {
+    "message": "Volledig scherm afgesloten."
+  },
+  "btnBackToFullscreen": {
+    "message": "Terug naar volledig scherm"
+  },
+  "errNoChannel": {
+    "message": "Geen Twitch-kanaal gevonden."
+  },
+  "errNoDisplays": {
+    "message": "Kan de lijst met schermen niet lezen."
+  },
+  "screenLabel": {
+    "message": "Scherm $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(hoofdscherm)"
+  },
+  "popupLookingForTab": {
+    "message": "Twitch-tabblad zoeken…"
+  },
+  "popupOpenButton": {
+    "message": "Chat openen op het andere scherm"
+  },
+  "popupShortcut": {
+    "message": "Sneltoets op de Twitch-pagina:"
+  },
+  "popupScreenLegend": {
+    "message": "Scherm voor de chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Schermen laden…"
+  },
+  "popupFullscreenNote": {
+    "message": "Vanuit dit menu staat de browser geen direct volledig scherm toe: er verschijnt een knop ‘Volledig scherm’ op de Twitch-pagina."
+  },
+  "popupChannel": {
+    "message": "Kanaal: $1"
+  },
+  "popupNotChannel": {
+    "message": "Open de pagina van een Twitch-kanaal (twitch.tv/kanaalnaam) en klik daarna opnieuw op de extensie."
+  },
+  "popupOpening": {
+    "message": "Chat openen…"
+  },
+  "popupAuto": {
+    "message": "Automatisch (het andere scherm)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— het opgeslagen scherm is niet meer aangesloten"
+  },
+  "popupLiveScreen": {
+    "message": "— scherm van de stream"
+  },
+  "popupSingleScreen": {
+    "message": "Slechts één scherm gevonden: de chat opent op hetzelfde scherm."
+  },
+  "popupAutoHint": {
+    "message": "De chat gaat naar een ander scherm dan de stream."
+  },
+  "popupSaved": {
+    "message": "Scherm opgeslagen voor de volgende keer."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

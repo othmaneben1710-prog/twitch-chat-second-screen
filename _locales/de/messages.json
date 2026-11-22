@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat auf zweitem Bildschirm für Twitch"
+  },
+  "extDescription": {
+    "message": "Schau Twitch-Streams im Vollbild auf einem Monitor, während der Live-Chat automatisch auf deinem zweiten Bildschirm öffnet."
+  },
+  "actionTitle": {
+    "message": "Chat auf dem anderen Bildschirm öffnen"
+  },
+  "pageButton": {
+    "message": "Chat auf anderem Bildschirm"
+  },
+  "pageButtonTitle": {
+    "message": "Öffnet den Chat auf deinem anderen Bildschirm und zeigt den Stream im Vollbild ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Öffne die Seite eines Twitch-Kanals (twitch.tv/kanalname), um diese Funktion zu nutzen."
+  },
+  "toastReload": {
+    "message": "Die Erweiterung wurde aktualisiert: Lade die Seite neu (F5) und versuche es erneut."
+  },
+  "errOpenChat": {
+    "message": "Chat konnte nicht geöffnet werden: $1"
+  },
+  "unknownError": {
+    "message": "unbekannter Fehler"
+  },
+  "toastSingleScreen": {
+    "message": "Nur ein Bildschirm erkannt: Der Chat wurde in einem eigenen Fenster geöffnet, wird aber vom Vollbild verdeckt. Wechsle mit Alt+Tab."
+  },
+  "toastSameScreen": {
+    "message": "Der Chat wurde auf demselben Bildschirm wie der Stream geöffnet (gespeicherter Bildschirm). Ändere ihn im Menü der Erweiterung."
+  },
+  "toastChatOpened": {
+    "message": "Chat geöffnet: $1."
+  },
+  "promptChatOpened": {
+    "message": "Der Chat ist geöffnet: $1. Klicke, um den Stream im Vollbild anzusehen."
+  },
+  "promptDefault": {
+    "message": "Der Chat ist geöffnet. Klicke, um den Stream im Vollbild anzusehen."
+  },
+  "promptSingleScreen": {
+    "message": "Nur ein Bildschirm erkannt: Der Chat ist in einem eigenen Fenster (mit Alt+Tab erreichbar). Klicke, um den Stream im Vollbild anzusehen."
+  },
+  "btnFullscreen": {
+    "message": "Vollbild"
+  },
+  "btnLater": {
+    "message": "Später"
+  },
+  "toastFullscreenRefused": {
+    "message": "Der Browser hat das Vollbild abgelehnt. Nutze die Vollbild-Schaltfläche des Players."
+  },
+  "toastFullscreenExited": {
+    "message": "Vollbild beendet."
+  },
+  "btnBackToFullscreen": {
+    "message": "Zurück zum Vollbild"
+  },
+  "errNoChannel": {
+    "message": "Kein Twitch-Kanal erkannt."
+  },
+  "errNoDisplays": {
+    "message": "Die Liste der Bildschirme konnte nicht gelesen werden."
+  },
+  "screenLabel": {
+    "message": "Bildschirm $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(Hauptbildschirm)"
+  },
+  "popupLookingForTab": {
+    "message": "Suche nach dem Twitch-Tab…"
+  },
+  "popupOpenButton": {
+    "message": "Chat auf dem anderen Bildschirm öffnen"
+  },
+  "popupShortcut": {
+    "message": "Tastenkürzel auf der Twitch-Seite:"
+  },
+  "popupScreenLegend": {
+    "message": "Bildschirm für den Chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Bildschirme werden geladen…"
+  },
+  "popupFullscreenNote": {
+    "message": "Aus diesem Menü erlaubt der Browser kein direktes Vollbild: Auf der Twitch-Seite erscheint eine Schaltfläche „Vollbild“."
+  },
+  "popupChannel": {
+    "message": "Kanal: $1"
+  },
+  "popupNotChannel": {
+    "message": "Öffne die Seite eines Twitch-Kanals (twitch.tv/kanalname) und klicke dann erneut auf die Erweiterung."
+  },
+  "popupOpening": {
+    "message": "Chat wird geöffnet…"
+  },
+  "popupAuto": {
+    "message": "Automatisch (der andere Bildschirm)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— der gespeicherte Bildschirm ist nicht mehr angeschlossen"
+  },
+  "popupLiveScreen": {
+    "message": "— Bildschirm des Streams"
+  },
+  "popupSingleScreen": {
+    "message": "Nur ein Bildschirm erkannt: Der Chat öffnet sich auf demselben Bildschirm."
+  },
+  "popupAutoHint": {
+    "message": "Der Chat öffnet sich auf einem anderen Bildschirm als der Stream."
+  },
+  "popupSaved": {
+    "message": "Bildschirm für das nächste Mal gespeichert."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Umschalt"
+  }
+}

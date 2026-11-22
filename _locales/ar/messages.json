@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "الدردشة على الشاشة الثانية لـ Twitch"
+  },
+  "extDescription": {
+    "message": "شاهد بث Twitch بملء الشاشة على شاشة واحدة بينما تُفتح الدردشة المباشرة تلقائيًا على شاشتك الثانية."
+  },
+  "actionTitle": {
+    "message": "فتح الدردشة على الشاشة الأخرى"
+  },
+  "pageButton": {
+    "message": "الدردشة على الشاشة الأخرى"
+  },
+  "pageButtonTitle": {
+    "message": "يفتح الدردشة على شاشتك الأخرى ويعرض البث بملء الشاشة ($1)"
+  },
+  "toastWrongPage": {
+    "message": "افتح صفحة قناة على Twitch (twitch.tv/اسم-القناة) لاستخدام هذه الميزة."
+  },
+  "toastReload": {
+    "message": "تم تحديث الإضافة: أعد تحميل الصفحة (F5) ثم حاول مرة أخرى."
+  },
+  "errOpenChat": {
+    "message": "تعذّر فتح الدردشة: $1"
+  },
+  "unknownError": {
+    "message": "خطأ غير معروف"
+  },
+  "toastSingleScreen": {
+    "message": "تم اكتشاف شاشة واحدة فقط: فُتحت الدردشة في نافذة منفصلة، لكن وضع ملء الشاشة سيخفيها. استخدم Alt+Tab للتبديل."
+  },
+  "toastSameScreen": {
+    "message": "فُتحت الدردشة على نفس شاشة البث (الشاشة المحفوظة). غيّرها من قائمة الإضافة."
+  },
+  "toastChatOpened": {
+    "message": "تم فتح الدردشة على $1."
+  },
+  "promptChatOpened": {
+    "message": "الدردشة مفتوحة على $1. انقر لمشاهدة البث بملء الشاشة."
+  },
+  "promptDefault": {
+    "message": "الدردشة مفتوحة. انقر لمشاهدة البث بملء الشاشة."
+  },
+  "promptSingleScreen": {
+    "message": "تم اكتشاف شاشة واحدة فقط: الدردشة في نافذة منفصلة (Alt+Tab للانتقال إليها). انقر لمشاهدة البث بملء الشاشة."
+  },
+  "btnFullscreen": {
+    "message": "ملء الشاشة"
+  },
+  "btnLater": {
+    "message": "لاحقًا"
+  },
+  "toastFullscreenRefused": {
+    "message": "رفض المتصفح وضع ملء الشاشة. استخدم زر ملء الشاشة في المشغّل."
+  },
+  "toastFullscreenExited": {
+    "message": "تم الخروج من وضع ملء الشاشة."
+  },
+  "btnBackToFullscreen": {
+    "message": "العودة إلى ملء الشاشة"
+  },
+  "errNoChannel": {
+    "message": "لم يتم اكتشاف أي قناة على Twitch."
+  },
+  "errNoDisplays": {
+    "message": "تعذّر قراءة قائمة الشاشات."
+  },
+  "screenLabel": {
+    "message": "الشاشة $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(الرئيسية)"
+  },
+  "popupLookingForTab": {
+    "message": "جارٍ البحث عن علامة تبويب Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "فتح الدردشة على الشاشة الأخرى"
+  },
+  "popupShortcut": {
+    "message": "اختصار في صفحة Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "شاشة الدردشة"
+  },
+  "popupLoadingScreens": {
+    "message": "جارٍ تحميل الشاشات…"
+  },
+  "popupFullscreenNote": {
+    "message": "من هذه القائمة لا يسمح المتصفح بملء الشاشة مباشرة: سيظهر زر «ملء الشاشة» في صفحة Twitch."
+  },
+  "popupChannel": {
+    "message": "القناة: $1"
+  },
+  "popupNotChannel": {
+    "message": "افتح صفحة قناة على Twitch (twitch.tv/اسم-القناة)، ثم انقر على الإضافة مرة أخرى."
+  },
+  "popupOpening": {
+    "message": "جارٍ فتح الدردشة…"
+  },
+  "popupAuto": {
+    "message": "تلقائي (الشاشة الأخرى)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— الشاشة المحفوظة لم تعد متصلة"
+  },
+  "popupLiveScreen": {
+    "message": "— شاشة البث"
+  },
+  "popupSingleScreen": {
+    "message": "تم اكتشاف شاشة واحدة فقط: ستُفتح الدردشة على نفس الشاشة."
+  },
+  "popupAutoHint": {
+    "message": "ستُفتح الدردشة على شاشة مختلفة عن شاشة البث."
+  },
+  "popupSaved": {
+    "message": "تم حفظ الشاشة للمرة القادمة."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

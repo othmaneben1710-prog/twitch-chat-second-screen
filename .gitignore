@@ -1,0 +1,10 @@
+# Release build: the ZIP is attached to GitHub Releases, not committed
+dist/
+
+# OS / editor files
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
+.idea/
+*.log

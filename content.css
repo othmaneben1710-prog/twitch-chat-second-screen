@@ -1,0 +1,86 @@
+#tcae-bouton {
+  position: fixed;
+  z-index: 2147483000;
+  display: none;
+  padding: 6px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: rgba(145, 70, 255, 0.92);
+  color: #fff;
+  font: 600 13px/1.2 Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  opacity: 0.85;
+}
+#tcae-bouton.tcae-visible { display: block; }
+#tcae-bouton:hover, #tcae-bouton:focus-visible { opacity: 1; background: #772ce8; outline: 2px solid #fff; }
+
+#tcae-toast {
+  position: fixed;
+  z-index: 2147483001;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%) translateY(20px);
+  max-width: min(560px, calc(100vw - 32px));
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  padding: 12px 16px;
+  border-radius: 8px;
+  background: #18181b;
+  color: #efeff1;
+  font: 14px/1.4 Inter, "Segoe UI", Roboto, Arial, sans-serif;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s, transform 0.2s;
+}
+#tcae-toast.tcae-visible { opacity: 1; transform: translateX(-50%); pointer-events: auto; }
+#tcae-toast button {
+  flex: none;
+  padding: 6px 10px;
+  border: 0;
+  border-radius: 4px;
+  background: #9146ff;
+  color: #fff;
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+#tcae-voile {
+  position: fixed;
+  inset: 0;
+  z-index: 2147483002;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+#tcae-voile .tcae-boite {
+  max-width: 420px;
+  margin: 16px;
+  padding: 24px;
+  border-radius: 10px;
+  background: #18181b;
+  color: #efeff1;
+  text-align: center;
+  font: 15px/1.45 Inter, "Segoe UI", Roboto, Arial, sans-serif;
+}
+#tcae-voile p { margin: 0 0 16px; }
+#tcae-voile button {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  padding: 10px;
+  border: 0;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+#tcae-voile .tcae-principal { background: #9146ff; color: #fff; }
+#tcae-voile .tcae-principal:hover { background: #772ce8; }
+#tcae-voile .tcae-secondaire { background: transparent; color: #adadb8; }

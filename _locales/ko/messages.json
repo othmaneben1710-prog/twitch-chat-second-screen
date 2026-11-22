@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch용 두 번째 화면 채팅"
+  },
+  "extDescription": {
+    "message": "한 모니터에서 Twitch 방송을 전체 화면으로 보면서 라이브 채팅을 두 번째 화면에 자동으로 엽니다."
+  },
+  "actionTitle": {
+    "message": "다른 화면에서 채팅 열기"
+  },
+  "pageButton": {
+    "message": "다른 화면에서 채팅"
+  },
+  "pageButtonTitle": {
+    "message": "다른 화면에서 채팅을 열고 방송을 전체 화면으로 전환합니다 ($1)"
+  },
+  "toastWrongPage": {
+    "message": "이 기능을 사용하려면 Twitch 채널 페이지(twitch.tv/채널이름)를 여세요."
+  },
+  "toastReload": {
+    "message": "확장 프로그램이 업데이트되었습니다. 페이지를 새로고침(F5)한 후 다시 시도하세요."
+  },
+  "errOpenChat": {
+    "message": "채팅을 열 수 없습니다: $1"
+  },
+  "unknownError": {
+    "message": "알 수 없는 오류"
+  },
+  "toastSingleScreen": {
+    "message": "화면이 하나만 감지되었습니다. 채팅은 별도 창에서 열렸지만 전체 화면에 가려집니다. Alt+Tab으로 전환하세요."
+  },
+  "toastSameScreen": {
+    "message": "채팅이 방송과 같은 화면에서 열렸습니다(저장된 화면). 확장 프로그램 메뉴에서 변경하세요."
+  },
+  "toastChatOpened": {
+    "message": "채팅을 열었습니다: $1"
+  },
+  "promptChatOpened": {
+    "message": "채팅이 열렸습니다: $1. 클릭하면 방송을 전체 화면으로 볼 수 있습니다."
+  },
+  "promptDefault": {
+    "message": "채팅이 열렸습니다. 클릭하면 방송을 전체 화면으로 볼 수 있습니다."
+  },
+  "promptSingleScreen": {
+    "message": "화면이 하나만 감지되었습니다. 채팅은 별도 창에 있습니다(Alt+Tab으로 이동). 클릭하면 방송을 전체 화면으로 볼 수 있습니다."
+  },
+  "btnFullscreen": {
+    "message": "전체 화면"
+  },
+  "btnLater": {
+    "message": "나중에"
+  },
+  "toastFullscreenRefused": {
+    "message": "브라우저가 전체 화면을 거부했습니다. 플레이어의 전체 화면 버튼을 사용하세요."
+  },
+  "toastFullscreenExited": {
+    "message": "전체 화면이 종료되었습니다."
+  },
+  "btnBackToFullscreen": {
+    "message": "전체 화면으로 돌아가기"
+  },
+  "errNoChannel": {
+    "message": "Twitch 채널을 찾을 수 없습니다."
+  },
+  "errNoDisplays": {
+    "message": "화면 목록을 읽을 수 없습니다."
+  },
+  "screenLabel": {
+    "message": "화면 $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(기본)"
+  },
+  "popupLookingForTab": {
+    "message": "Twitch 탭을 찾는 중…"
+  },
+  "popupOpenButton": {
+    "message": "다른 화면에서 채팅 열기"
+  },
+  "popupShortcut": {
+    "message": "Twitch 페이지 단축키:"
+  },
+  "popupScreenLegend": {
+    "message": "채팅 화면"
+  },
+  "popupLoadingScreens": {
+    "message": "화면 목록을 불러오는 중…"
+  },
+  "popupFullscreenNote": {
+    "message": "이 메뉴에서는 브라우저가 바로 전체 화면을 허용하지 않습니다. Twitch 페이지에 ‘전체 화면’ 버튼이 나타납니다."
+  },
+  "popupChannel": {
+    "message": "채널: $1"
+  },
+  "popupNotChannel": {
+    "message": "Twitch 채널 페이지(twitch.tv/채널이름)를 연 다음 확장 프로그램을 다시 클릭하세요."
+  },
+  "popupOpening": {
+    "message": "채팅을 여는 중…"
+  },
+  "popupAuto": {
+    "message": "자동(다른 화면)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— 저장된 화면이 더 이상 연결되어 있지 않습니다"
+  },
+  "popupLiveScreen": {
+    "message": "— 방송 화면"
+  },
+  "popupSingleScreen": {
+    "message": "화면이 하나만 감지되었습니다. 채팅이 같은 화면에서 열립니다."
+  },
+  "popupAutoHint": {
+    "message": "채팅은 방송과 다른 화면에서 열립니다."
+  },
+  "popupSaved": {
+    "message": "다음에 사용할 화면을 저장했습니다."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

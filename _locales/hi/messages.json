@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch के लिए दूसरी स्क्रीन पर चैट"
+  },
+  "extDescription": {
+    "message": "एक मॉनिटर पर Twitch स्ट्रीम फ़ुलस्क्रीन में देखें, जबकि लाइव चैट अपने आप आपकी दूसरी स्क्रीन पर खुल जाए।"
+  },
+  "actionTitle": {
+    "message": "दूसरी स्क्रीन पर चैट खोलें"
+  },
+  "pageButton": {
+    "message": "दूसरी स्क्रीन पर चैट"
+  },
+  "pageButtonTitle": {
+    "message": "आपकी दूसरी स्क्रीन पर चैट खोलता है और स्ट्रीम को फ़ुलस्क्रीन करता है ($1)"
+  },
+  "toastWrongPage": {
+    "message": "इस सुविधा का उपयोग करने के लिए Twitch चैनल का पेज (twitch.tv/चैनल-नाम) खोलें।"
+  },
+  "toastReload": {
+    "message": "एक्सटेंशन अपडेट हो गया है: पेज रीलोड करें (F5) और फिर से कोशिश करें।"
+  },
+  "errOpenChat": {
+    "message": "चैट नहीं खुल सकी: $1"
+  },
+  "unknownError": {
+    "message": "अज्ञात त्रुटि"
+  },
+  "toastSingleScreen": {
+    "message": "केवल एक स्क्रीन मिली: चैट अलग विंडो में खुल गई है, लेकिन फ़ुलस्क्रीन उसे छिपा देगा। बदलने के लिए Alt+Tab का उपयोग करें।"
+  },
+  "toastSameScreen": {
+    "message": "चैट उसी स्क्रीन पर खुली है जिस पर स्ट्रीम है (सेव की गई स्क्रीन)। इसे एक्सटेंशन मेनू में बदलें।"
+  },
+  "toastChatOpened": {
+    "message": "चैट $1 पर खुल गई।"
+  },
+  "promptChatOpened": {
+    "message": "चैट $1 पर खुली है। स्ट्रीम को फ़ुलस्क्रीन में देखने के लिए क्लिक करें।"
+  },
+  "promptDefault": {
+    "message": "चैट खुली है। स्ट्रीम को फ़ुलस्क्रीन में देखने के लिए क्लिक करें।"
+  },
+  "promptSingleScreen": {
+    "message": "केवल एक स्क्रीन मिली: चैट अलग विंडो में है (वहाँ जाने के लिए Alt+Tab)। स्ट्रीम को फ़ुलस्क्रीन में देखने के लिए क्लिक करें।"
+  },
+  "btnFullscreen": {
+    "message": "फ़ुलस्क्रीन"
+  },
+  "btnLater": {
+    "message": "बाद में"
+  },
+  "toastFullscreenRefused": {
+    "message": "ब्राउज़र ने फ़ुलस्क्रीन की अनुमति नहीं दी। प्लेयर के फ़ुलस्क्रीन बटन का उपयोग करें।"
+  },
+  "toastFullscreenExited": {
+    "message": "फ़ुलस्क्रीन से बाहर निकल गए।"
+  },
+  "btnBackToFullscreen": {
+    "message": "फ़ुलस्क्रीन पर वापस जाएँ"
+  },
+  "errNoChannel": {
+    "message": "कोई Twitch चैनल नहीं मिला।"
+  },
+  "errNoDisplays": {
+    "message": "स्क्रीन की सूची नहीं पढ़ी जा सकी।"
+  },
+  "screenLabel": {
+    "message": "स्क्रीन $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(मुख्य)"
+  },
+  "popupLookingForTab": {
+    "message": "Twitch टैब खोजा जा रहा है…"
+  },
+  "popupOpenButton": {
+    "message": "दूसरी स्क्रीन पर चैट खोलें"
+  },
+  "popupShortcut": {
+    "message": "Twitch पेज पर शॉर्टकट:"
+  },
+  "popupScreenLegend": {
+    "message": "चैट की स्क्रीन"
+  },
+  "popupLoadingScreens": {
+    "message": "स्क्रीन लोड हो रही हैं…"
+  },
+  "popupFullscreenNote": {
+    "message": "इस मेनू से ब्राउज़र सीधे फ़ुलस्क्रीन की अनुमति नहीं देता: Twitch पेज पर “फ़ुलस्क्रीन” बटन दिखाई देगा।"
+  },
+  "popupChannel": {
+    "message": "चैनल: $1"
+  },
+  "popupNotChannel": {
+    "message": "Twitch चैनल का पेज (twitch.tv/चैनल-नाम) खोलें, फिर एक्सटेंशन पर दोबारा क्लिक करें।"
+  },
+  "popupOpening": {
+    "message": "चैट खोली जा रही है…"
+  },
+  "popupAuto": {
+    "message": "स्वचालित (दूसरी स्क्रीन)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— सेव की गई स्क्रीन अब कनेक्ट नहीं है"
+  },
+  "popupLiveScreen": {
+    "message": "— स्ट्रीम वाली स्क्रीन"
+  },
+  "popupSingleScreen": {
+    "message": "केवल एक स्क्रीन मिली: चैट उसी स्क्रीन पर खुलेगी।"
+  },
+  "popupAutoHint": {
+    "message": "चैट स्ट्रीम से अलग स्क्रीन पर खुलेगी।"
+  },
+  "popupSaved": {
+    "message": "अगली बार के लिए स्क्रीन सेव हो गई।"
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

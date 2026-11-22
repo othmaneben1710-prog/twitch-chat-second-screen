@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch-এর জন্য দ্বিতীয় স্ক্রিনে চ্যাট"
+  },
+  "extDescription": {
+    "message": "একটি মনিটরে Twitch স্ট্রিম ফুলস্ক্রিনে দেখুন, আর লাইভ চ্যাট স্বয়ংক্রিয়ভাবে আপনার দ্বিতীয় স্ক্রিনে খুলবে।"
+  },
+  "actionTitle": {
+    "message": "অন্য স্ক্রিনে চ্যাট খুলুন"
+  },
+  "pageButton": {
+    "message": "অন্য স্ক্রিনে চ্যাট"
+  },
+  "pageButtonTitle": {
+    "message": "আপনার অন্য স্ক্রিনে চ্যাট খোলে এবং স্ট্রিম ফুলস্ক্রিন করে ($1)"
+  },
+  "toastWrongPage": {
+    "message": "এই ফিচার ব্যবহার করতে একটি Twitch চ্যানেলের পেজ (twitch.tv/চ্যানেলের-নাম) খুলুন।"
+  },
+  "toastReload": {
+    "message": "এক্সটেনশন আপডেট হয়েছে: পেজটি রিলোড করুন (F5) এবং আবার চেষ্টা করুন।"
+  },
+  "errOpenChat": {
+    "message": "চ্যাট খোলা যায়নি: $1"
+  },
+  "unknownError": {
+    "message": "অজানা ত্রুটি"
+  },
+  "toastSingleScreen": {
+    "message": "শুধু একটি স্ক্রিন পাওয়া গেছে: চ্যাট আলাদা উইন্ডোতে খুলেছে, কিন্তু ফুলস্ক্রিন এটিকে ঢেকে দেবে। বদলাতে Alt+Tab ব্যবহার করুন।"
+  },
+  "toastSameScreen": {
+    "message": "চ্যাট স্ট্রিমের একই স্ক্রিনে খুলেছে (সংরক্ষিত স্ক্রিন)। এক্সটেনশনের মেনু থেকে এটি বদলান।"
+  },
+  "toastChatOpened": {
+    "message": "চ্যাট খোলা হয়েছে: $1।"
+  },
+  "promptChatOpened": {
+    "message": "চ্যাট খোলা আছে: $1। ফুলস্ক্রিনে স্ট্রিম দেখতে ক্লিক করুন।"
+  },
+  "promptDefault": {
+    "message": "চ্যাট খোলা আছে। ফুলস্ক্রিনে স্ট্রিম দেখতে ক্লিক করুন।"
+  },
+  "promptSingleScreen": {
+    "message": "শুধু একটি স্ক্রিন পাওয়া গেছে: চ্যাট আলাদা উইন্ডোতে আছে (যেতে Alt+Tab)। ফুলস্ক্রিনে স্ট্রিম দেখতে ক্লিক করুন।"
+  },
+  "btnFullscreen": {
+    "message": "ফুলস্ক্রিন"
+  },
+  "btnLater": {
+    "message": "পরে"
+  },
+  "toastFullscreenRefused": {
+    "message": "ব্রাউজার ফুলস্ক্রিনের অনুমতি দেয়নি। প্লেয়ারের ফুলস্ক্রিন বোতাম ব্যবহার করুন।"
+  },
+  "toastFullscreenExited": {
+    "message": "ফুলস্ক্রিন বন্ধ হয়েছে।"
+  },
+  "btnBackToFullscreen": {
+    "message": "ফুলস্ক্রিনে ফিরে যান"
+  },
+  "errNoChannel": {
+    "message": "কোনো Twitch চ্যানেল পাওয়া যায়নি।"
+  },
+  "errNoDisplays": {
+    "message": "স্ক্রিনের তালিকা পড়া যায়নি।"
+  },
+  "screenLabel": {
+    "message": "স্ক্রিন $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(প্রধান)"
+  },
+  "popupLookingForTab": {
+    "message": "Twitch ট্যাব খোঁজা হচ্ছে…"
+  },
+  "popupOpenButton": {
+    "message": "অন্য স্ক্রিনে চ্যাট খুলুন"
+  },
+  "popupShortcut": {
+    "message": "Twitch পেজে শর্টকাট:"
+  },
+  "popupScreenLegend": {
+    "message": "চ্যাটের স্ক্রিন"
+  },
+  "popupLoadingScreens": {
+    "message": "স্ক্রিন লোড হচ্ছে…"
+  },
+  "popupFullscreenNote": {
+    "message": "এই মেনু থেকে ব্রাউজার সরাসরি ফুলস্ক্রিনের অনুমতি দেয় না: Twitch পেজে একটি “ফুলস্ক্রিন” বোতাম দেখা যাবে।"
+  },
+  "popupChannel": {
+    "message": "চ্যানেল: $1"
+  },
+  "popupNotChannel": {
+    "message": "একটি Twitch চ্যানেলের পেজ (twitch.tv/চ্যানেলের-নাম) খুলুন, তারপর আবার এক্সটেনশনে ক্লিক করুন।"
+  },
+  "popupOpening": {
+    "message": "চ্যাট খোলা হচ্ছে…"
+  },
+  "popupAuto": {
+    "message": "স্বয়ংক্রিয় (অন্য স্ক্রিন)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— সংরক্ষিত স্ক্রিনটি আর সংযুক্ত নেই"
+  },
+  "popupLiveScreen": {
+    "message": "— স্ট্রিমের স্ক্রিন"
+  },
+  "popupSingleScreen": {
+    "message": "শুধু একটি স্ক্রিন পাওয়া গেছে: চ্যাট একই স্ক্রিনে খুলবে।"
+  },
+  "popupAutoHint": {
+    "message": "চ্যাট স্ট্রিম থেকে আলাদা স্ক্রিনে খুলবে।"
+  },
+  "popupSaved": {
+    "message": "পরের বারের জন্য স্ক্রিন সংরক্ষিত হয়েছে।"
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

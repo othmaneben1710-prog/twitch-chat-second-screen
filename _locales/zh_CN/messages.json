@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch 第二屏幕聊天"
+  },
+  "extDescription": {
+    "message": "在一台显示器上全屏观看 Twitch 直播，同时在第二块屏幕上自动打开直播聊天。"
+  },
+  "actionTitle": {
+    "message": "在另一块屏幕上打开聊天"
+  },
+  "pageButton": {
+    "message": "在另一块屏幕上聊天"
+  },
+  "pageButtonTitle": {
+    "message": "在另一块屏幕上打开聊天，并将直播切换为全屏（$1）"
+  },
+  "toastWrongPage": {
+    "message": "请打开 Twitch 频道页面（twitch.tv/频道名）以使用此功能。"
+  },
+  "toastReload": {
+    "message": "扩展程序已更新：请刷新页面（F5）后重试。"
+  },
+  "errOpenChat": {
+    "message": "无法打开聊天：$1"
+  },
+  "unknownError": {
+    "message": "未知错误"
+  },
+  "toastSingleScreen": {
+    "message": "只检测到一块屏幕：聊天已在单独窗口中打开，但会被全屏画面遮住。请用 Alt+Tab 切换。"
+  },
+  "toastSameScreen": {
+    "message": "聊天在与直播相同的屏幕上打开（已保存的屏幕）。请在扩展菜单中更改。"
+  },
+  "toastChatOpened": {
+    "message": "已打开聊天：$1"
+  },
+  "promptChatOpened": {
+    "message": "聊天已打开：$1。点击即可全屏观看直播。"
+  },
+  "promptDefault": {
+    "message": "聊天已打开。点击即可全屏观看直播。"
+  },
+  "promptSingleScreen": {
+    "message": "只检测到一块屏幕：聊天在单独窗口中（用 Alt+Tab 切换）。点击即可全屏观看直播。"
+  },
+  "btnFullscreen": {
+    "message": "全屏"
+  },
+  "btnLater": {
+    "message": "稍后"
+  },
+  "toastFullscreenRefused": {
+    "message": "浏览器拒绝了全屏。请使用播放器的全屏按钮。"
+  },
+  "toastFullscreenExited": {
+    "message": "已退出全屏。"
+  },
+  "btnBackToFullscreen": {
+    "message": "返回全屏"
+  },
+  "errNoChannel": {
+    "message": "未检测到 Twitch 频道。"
+  },
+  "errNoDisplays": {
+    "message": "无法读取屏幕列表。"
+  },
+  "screenLabel": {
+    "message": "屏幕 $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "（主屏幕）"
+  },
+  "popupLookingForTab": {
+    "message": "正在查找 Twitch 标签页…"
+  },
+  "popupOpenButton": {
+    "message": "在另一块屏幕上打开聊天"
+  },
+  "popupShortcut": {
+    "message": "Twitch 页面快捷键："
+  },
+  "popupScreenLegend": {
+    "message": "聊天屏幕"
+  },
+  "popupLoadingScreens": {
+    "message": "正在加载屏幕…"
+  },
+  "popupFullscreenNote": {
+    "message": "从此菜单无法直接进入全屏：Twitch 页面上会出现“全屏”按钮。"
+  },
+  "popupChannel": {
+    "message": "频道：$1"
+  },
+  "popupNotChannel": {
+    "message": "请打开 Twitch 频道页面（twitch.tv/频道名），然后再次点击扩展程序。"
+  },
+  "popupOpening": {
+    "message": "正在打开聊天…"
+  },
+  "popupAuto": {
+    "message": "自动（另一块屏幕）"
+  },
+  "popupSavedUnplugged": {
+    "message": "— 已保存的屏幕已断开连接"
+  },
+  "popupLiveScreen": {
+    "message": "— 直播所在屏幕"
+  },
+  "popupSingleScreen": {
+    "message": "只检测到一块屏幕：聊天将在同一屏幕上打开。"
+  },
+  "popupAutoHint": {
+    "message": "聊天将在与直播不同的屏幕上打开。"
+  },
+  "popupSaved": {
+    "message": "已保存屏幕，下次使用。"
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

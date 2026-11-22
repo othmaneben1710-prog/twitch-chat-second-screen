@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head><meta charset="utf-8"><title>Simulation du popup</title></head>
+<body style="background:#ddd">
+<p>Le vrai popup.html chargé avec de faux écrans (nécessite un petit serveur local).</p>
+<iframe id="cadre" style="width:360px;height:520px;border:1px solid #888;background:#fff"></iframe>
+<script src="../lib/ecrans.js"></script>
+<script src="mock-chrome.js"></script>
+<script src="../service-worker.js"></script>
+<script>
+(async function () {
+  const html = await (await fetch("../popup.html")).text();
+  const injecte = html
+    .replace("<head>", '<head><base href="../">')
+    .replace('<script src="lib/ecrans.js">', '<script src="tests/mock-chrome.js"></scr' + 'ipt><script src="lib/ecrans.js">');
+  document.getElementById("cadre").srcdoc = injecte;
+})();
+</script>
+</body>
+</html>

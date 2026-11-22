@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Чат на втором экране для Twitch"
+  },
+  "extDescription": {
+    "message": "Смотрите трансляции Twitch в полноэкранном режиме на одном мониторе, а чат автоматически откроется на втором экране."
+  },
+  "actionTitle": {
+    "message": "Открыть чат на другом экране"
+  },
+  "pageButton": {
+    "message": "Чат на другом экране"
+  },
+  "pageButtonTitle": {
+    "message": "Открывает чат на другом экране и включает полноэкранный режим трансляции ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Откройте страницу канала Twitch (twitch.tv/имя-канала), чтобы использовать эту функцию."
+  },
+  "toastReload": {
+    "message": "Расширение обновлено: перезагрузите страницу (F5) и попробуйте снова."
+  },
+  "errOpenChat": {
+    "message": "Не удалось открыть чат: $1"
+  },
+  "unknownError": {
+    "message": "неизвестная ошибка"
+  },
+  "toastSingleScreen": {
+    "message": "Обнаружен только один экран: чат открыт в отдельном окне, но полноэкранный режим его закроет. Переключайтесь с помощью Alt+Tab."
+  },
+  "toastSameScreen": {
+    "message": "Чат открылся на том же экране, что и трансляция (сохранённый экран). Измените его в меню расширения."
+  },
+  "toastChatOpened": {
+    "message": "Чат открыт: $1."
+  },
+  "promptChatOpened": {
+    "message": "Чат открыт: $1. Нажмите, чтобы смотреть трансляцию на весь экран."
+  },
+  "promptDefault": {
+    "message": "Чат открыт. Нажмите, чтобы смотреть трансляцию на весь экран."
+  },
+  "promptSingleScreen": {
+    "message": "Обнаружен только один экран: чат открыт в отдельном окне (переход — Alt+Tab). Нажмите, чтобы смотреть трансляцию на весь экран."
+  },
+  "btnFullscreen": {
+    "message": "На весь экран"
+  },
+  "btnLater": {
+    "message": "Позже"
+  },
+  "toastFullscreenRefused": {
+    "message": "Браузер не разрешил полноэкранный режим. Используйте кнопку полноэкранного режима в плеере."
+  },
+  "toastFullscreenExited": {
+    "message": "Полноэкранный режим выключен."
+  },
+  "btnBackToFullscreen": {
+    "message": "Вернуться в полноэкранный режим"
+  },
+  "errNoChannel": {
+    "message": "Канал Twitch не найден."
+  },
+  "errNoDisplays": {
+    "message": "Не удалось получить список экранов."
+  },
+  "screenLabel": {
+    "message": "Экран $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(основной)"
+  },
+  "popupLookingForTab": {
+    "message": "Поиск вкладки Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Открыть чат на другом экране"
+  },
+  "popupShortcut": {
+    "message": "Сочетание клавиш на странице Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Экран для чата"
+  },
+  "popupLoadingScreens": {
+    "message": "Загрузка списка экранов…"
+  },
+  "popupFullscreenNote": {
+    "message": "Из этого меню браузер не разрешает сразу включить полноэкранный режим: на странице Twitch появится кнопка «На весь экран»."
+  },
+  "popupChannel": {
+    "message": "Канал: $1"
+  },
+  "popupNotChannel": {
+    "message": "Откройте страницу канала Twitch (twitch.tv/имя-канала) и снова нажмите на расширение."
+  },
+  "popupOpening": {
+    "message": "Открываем чат…"
+  },
+  "popupAuto": {
+    "message": "Автоматически (другой экран)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— сохранённый экран больше не подключён"
+  },
+  "popupLiveScreen": {
+    "message": "— экран трансляции"
+  },
+  "popupSingleScreen": {
+    "message": "Обнаружен только один экран: чат откроется на том же экране."
+  },
+  "popupAutoHint": {
+    "message": "Чат откроется на другом экране, не на экране трансляции."
+  },
+  "popupSaved": {
+    "message": "Экран сохранён для следующего раза."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

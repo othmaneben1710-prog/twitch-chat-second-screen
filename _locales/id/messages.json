@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat di Layar Kedua untuk Twitch"
+  },
+  "extDescription": {
+    "message": "Tonton siaran Twitch dalam layar penuh di satu monitor sementara chat langsung terbuka otomatis di layar kedua Anda."
+  },
+  "actionTitle": {
+    "message": "Buka chat di layar lain"
+  },
+  "pageButton": {
+    "message": "Chat di layar lain"
+  },
+  "pageButtonTitle": {
+    "message": "Membuka chat di layar Anda yang lain dan menampilkan siaran dalam layar penuh ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Buka halaman saluran Twitch (twitch.tv/nama-saluran) untuk menggunakan fitur ini."
+  },
+  "toastReload": {
+    "message": "Ekstensi telah diperbarui: muat ulang halaman (F5) lalu coba lagi."
+  },
+  "errOpenChat": {
+    "message": "Tidak dapat membuka chat: $1"
+  },
+  "unknownError": {
+    "message": "kesalahan tidak dikenal"
+  },
+  "toastSingleScreen": {
+    "message": "Hanya satu layar terdeteksi: chat terbuka di jendela terpisah, tetapi layar penuh akan menutupinya. Gunakan Alt+Tab untuk beralih."
+  },
+  "toastSameScreen": {
+    "message": "Chat terbuka di layar yang sama dengan siaran (layar tersimpan). Ubah di menu ekstensi."
+  },
+  "toastChatOpened": {
+    "message": "Chat terbuka di $1."
+  },
+  "promptChatOpened": {
+    "message": "Chat terbuka di $1. Klik untuk menonton siaran dalam layar penuh."
+  },
+  "promptDefault": {
+    "message": "Chat sudah terbuka. Klik untuk menonton siaran dalam layar penuh."
+  },
+  "promptSingleScreen": {
+    "message": "Hanya satu layar terdeteksi: chat ada di jendela terpisah (Alt+Tab untuk membukanya). Klik untuk menonton siaran dalam layar penuh."
+  },
+  "btnFullscreen": {
+    "message": "Layar penuh"
+  },
+  "btnLater": {
+    "message": "Nanti"
+  },
+  "toastFullscreenRefused": {
+    "message": "Browser menolak layar penuh. Gunakan tombol layar penuh pada pemutar."
+  },
+  "toastFullscreenExited": {
+    "message": "Keluar dari layar penuh."
+  },
+  "btnBackToFullscreen": {
+    "message": "Kembali ke layar penuh"
+  },
+  "errNoChannel": {
+    "message": "Tidak ada saluran Twitch yang terdeteksi."
+  },
+  "errNoDisplays": {
+    "message": "Tidak dapat membaca daftar layar."
+  },
+  "screenLabel": {
+    "message": "Layar $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(utama)"
+  },
+  "popupLookingForTab": {
+    "message": "Mencari tab Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Buka chat di layar lain"
+  },
+  "popupShortcut": {
+    "message": "Pintasan di halaman Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Layar chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Memuat daftar layar…"
+  },
+  "popupFullscreenNote": {
+    "message": "Dari menu ini, browser tidak mengizinkan layar penuh langsung: tombol “Layar penuh” akan muncul di halaman Twitch."
+  },
+  "popupChannel": {
+    "message": "Saluran: $1"
+  },
+  "popupNotChannel": {
+    "message": "Buka halaman saluran Twitch (twitch.tv/nama-saluran), lalu klik ekstensi lagi."
+  },
+  "popupOpening": {
+    "message": "Membuka chat…"
+  },
+  "popupAuto": {
+    "message": "Otomatis (layar lain)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— layar tersimpan tidak lagi terhubung"
+  },
+  "popupLiveScreen": {
+    "message": "— layar siaran"
+  },
+  "popupSingleScreen": {
+    "message": "Hanya satu layar terdeteksi: chat akan terbuka di layar yang sama."
+  },
+  "popupAutoHint": {
+    "message": "Chat akan terbuka di layar yang berbeda dari siaran."
+  },
+  "popupSaved": {
+    "message": "Layar disimpan untuk lain kali."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

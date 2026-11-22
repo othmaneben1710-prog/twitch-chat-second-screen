@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Twitch için İkinci Ekranda Sohbet"
+  },
+  "extDescription": {
+    "message": "Twitch yayınlarını bir monitörde tam ekran izlerken canlı sohbet ikinci ekranınızda otomatik olarak açılsın."
+  },
+  "actionTitle": {
+    "message": "Sohbeti diğer ekranda aç"
+  },
+  "pageButton": {
+    "message": "Sohbeti diğer ekranda aç"
+  },
+  "pageButtonTitle": {
+    "message": "Sohbeti diğer ekranınızda açar ve yayını tam ekrana alır ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Bu özelliği kullanmak için bir Twitch kanal sayfası açın (twitch.tv/kanal-adi)."
+  },
+  "toastReload": {
+    "message": "Eklenti güncellendi: sayfayı yenileyin (F5) ve tekrar deneyin."
+  },
+  "errOpenChat": {
+    "message": "Sohbet açılamadı: $1"
+  },
+  "unknownError": {
+    "message": "bilinmeyen hata"
+  },
+  "toastSingleScreen": {
+    "message": "Yalnızca bir ekran algılandı: sohbet ayrı bir pencerede açıldı ancak tam ekran onu gizleyecek. Geçiş için Alt+Tab kullanın."
+  },
+  "toastSameScreen": {
+    "message": "Sohbet, yayınla aynı ekranda açıldı (kayıtlı ekran). Bunu eklenti menüsünden değiştirin."
+  },
+  "toastChatOpened": {
+    "message": "Sohbet açıldı: $1."
+  },
+  "promptChatOpened": {
+    "message": "Sohbet açık: $1. Yayını tam ekran izlemek için tıklayın."
+  },
+  "promptDefault": {
+    "message": "Sohbet açık. Yayını tam ekran izlemek için tıklayın."
+  },
+  "promptSingleScreen": {
+    "message": "Yalnızca bir ekran algılandı: sohbet ayrı bir pencerede (geçmek için Alt+Tab). Yayını tam ekran izlemek için tıklayın."
+  },
+  "btnFullscreen": {
+    "message": "Tam ekran"
+  },
+  "btnLater": {
+    "message": "Daha sonra"
+  },
+  "toastFullscreenRefused": {
+    "message": "Tarayıcı tam ekranı reddetti. Oynatıcının tam ekran düğmesini kullanın."
+  },
+  "toastFullscreenExited": {
+    "message": "Tam ekrandan çıkıldı."
+  },
+  "btnBackToFullscreen": {
+    "message": "Tam ekrana dön"
+  },
+  "errNoChannel": {
+    "message": "Twitch kanalı algılanmadı."
+  },
+  "errNoDisplays": {
+    "message": "Ekran listesi okunamadı."
+  },
+  "screenLabel": {
+    "message": "Ekran $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(birincil)"
+  },
+  "popupLookingForTab": {
+    "message": "Twitch sekmesi aranıyor…"
+  },
+  "popupOpenButton": {
+    "message": "Sohbeti diğer ekranda aç"
+  },
+  "popupShortcut": {
+    "message": "Twitch sayfasındaki kısayol:"
+  },
+  "popupScreenLegend": {
+    "message": "Sohbet ekranı"
+  },
+  "popupLoadingScreens": {
+    "message": "Ekranlar yükleniyor…"
+  },
+  "popupFullscreenNote": {
+    "message": "Bu menüden tarayıcı doğrudan tam ekrana izin vermez: Twitch sayfasında bir “Tam ekran” düğmesi görünecek."
+  },
+  "popupChannel": {
+    "message": "Kanal: $1"
+  },
+  "popupNotChannel": {
+    "message": "Bir Twitch kanal sayfası açın (twitch.tv/kanal-adi), ardından eklentiye tekrar tıklayın."
+  },
+  "popupOpening": {
+    "message": "Sohbet açılıyor…"
+  },
+  "popupAuto": {
+    "message": "Otomatik (diğer ekran)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— kayıtlı ekran artık bağlı değil"
+  },
+  "popupLiveScreen": {
+    "message": "— yayın ekranı"
+  },
+  "popupSingleScreen": {
+    "message": "Yalnızca bir ekran algılandı: sohbet aynı ekranda açılacak."
+  },
+  "popupAutoHint": {
+    "message": "Sohbet, yayından farklı bir ekranda açılacak."
+  },
+  "popupSaved": {
+    "message": "Ekran bir dahaki sefer için kaydedildi."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

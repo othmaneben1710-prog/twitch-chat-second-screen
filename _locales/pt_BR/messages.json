@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat na segunda tela para Twitch"
+  },
+  "extDescription": {
+    "message": "Assista às lives da Twitch em tela cheia em um monitor enquanto o chat abre automaticamente na sua segunda tela."
+  },
+  "actionTitle": {
+    "message": "Abrir o chat na outra tela"
+  },
+  "pageButton": {
+    "message": "Chat na outra tela"
+  },
+  "pageButtonTitle": {
+    "message": "Abre o chat na sua outra tela e coloca a live em tela cheia ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Abra a página de um canal da Twitch (twitch.tv/nome-do-canal) para usar este recurso."
+  },
+  "toastReload": {
+    "message": "A extensão foi atualizada: recarregue a página (F5) e tente de novo."
+  },
+  "errOpenChat": {
+    "message": "Não foi possível abrir o chat: $1"
+  },
+  "unknownError": {
+    "message": "erro desconhecido"
+  },
+  "toastSingleScreen": {
+    "message": "Apenas uma tela detectada: o chat abriu em uma janela separada, mas a tela cheia vai escondê-lo. Use Alt+Tab para alternar."
+  },
+  "toastSameScreen": {
+    "message": "O chat abriu na mesma tela da live (tela salva). Altere-a no menu da extensão."
+  },
+  "toastChatOpened": {
+    "message": "Chat aberto: $1."
+  },
+  "promptChatOpened": {
+    "message": "O chat está aberto: $1. Clique para ver a live em tela cheia."
+  },
+  "promptDefault": {
+    "message": "O chat está aberto. Clique para ver a live em tela cheia."
+  },
+  "promptSingleScreen": {
+    "message": "Apenas uma tela detectada: o chat está em uma janela separada (Alt+Tab para acessá-lo). Clique para ver a live em tela cheia."
+  },
+  "btnFullscreen": {
+    "message": "Tela cheia"
+  },
+  "btnLater": {
+    "message": "Mais tarde"
+  },
+  "toastFullscreenRefused": {
+    "message": "O navegador recusou a tela cheia. Use o botão de tela cheia do player."
+  },
+  "toastFullscreenExited": {
+    "message": "Você saiu da tela cheia."
+  },
+  "btnBackToFullscreen": {
+    "message": "Voltar à tela cheia"
+  },
+  "errNoChannel": {
+    "message": "Nenhum canal da Twitch detectado."
+  },
+  "errNoDisplays": {
+    "message": "Não foi possível ler a lista de telas."
+  },
+  "screenLabel": {
+    "message": "Tela $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(principal)"
+  },
+  "popupLookingForTab": {
+    "message": "Procurando a aba da Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Abrir o chat na outra tela"
+  },
+  "popupShortcut": {
+    "message": "Atalho na página da Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Tela do chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Carregando telas…"
+  },
+  "popupFullscreenNote": {
+    "message": "A partir deste menu, o navegador não permite tela cheia direta: um botão “Tela cheia” aparecerá na página da Twitch."
+  },
+  "popupChannel": {
+    "message": "Canal: $1"
+  },
+  "popupNotChannel": {
+    "message": "Abra a página de um canal da Twitch (twitch.tv/nome-do-canal) e clique na extensão novamente."
+  },
+  "popupOpening": {
+    "message": "Abrindo o chat…"
+  },
+  "popupAuto": {
+    "message": "Automático (a outra tela)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— a tela salva não está mais conectada"
+  },
+  "popupLiveScreen": {
+    "message": "— tela da live"
+  },
+  "popupSingleScreen": {
+    "message": "Apenas uma tela detectada: o chat abrirá na mesma tela."
+  },
+  "popupAutoHint": {
+    "message": "O chat irá para uma tela diferente da live."
+  },
+  "popupSaved": {
+    "message": "Tela salva para a próxima vez."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

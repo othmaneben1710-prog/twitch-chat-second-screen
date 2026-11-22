@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Czat na drugim ekranie dla Twitcha"
+  },
+  "extDescription": {
+    "message": "Oglądaj transmisje z Twitcha na pełnym ekranie na jednym monitorze, a czat otworzy się automatycznie na drugim ekranie."
+  },
+  "actionTitle": {
+    "message": "Otwórz czat na drugim ekranie"
+  },
+  "pageButton": {
+    "message": "Czat na drugim ekranie"
+  },
+  "pageButtonTitle": {
+    "message": "Otwiera czat na drugim ekranie i włącza transmisję na pełnym ekranie ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Otwórz stronę kanału na Twitchu (twitch.tv/nazwa-kanalu), aby użyć tej funkcji."
+  },
+  "toastReload": {
+    "message": "Rozszerzenie zostało zaktualizowane: odśwież stronę (F5) i spróbuj ponownie."
+  },
+  "errOpenChat": {
+    "message": "Nie udało się otworzyć czatu: $1"
+  },
+  "unknownError": {
+    "message": "nieznany błąd"
+  },
+  "toastSingleScreen": {
+    "message": "Wykryto tylko jeden ekran: czat otwarto w osobnym oknie, ale pełny ekran go zasłoni. Przełączaj się za pomocą Alt+Tab."
+  },
+  "toastSameScreen": {
+    "message": "Czat otworzył się na tym samym ekranie co transmisja (zapisany ekran). Zmień go w menu rozszerzenia."
+  },
+  "toastChatOpened": {
+    "message": "Czat otwarty: $1."
+  },
+  "promptChatOpened": {
+    "message": "Czat jest otwarty: $1. Kliknij, aby oglądać transmisję na pełnym ekranie."
+  },
+  "promptDefault": {
+    "message": "Czat jest otwarty. Kliknij, aby oglądać transmisję na pełnym ekranie."
+  },
+  "promptSingleScreen": {
+    "message": "Wykryto tylko jeden ekran: czat jest w osobnym oknie (Alt+Tab, aby do niego przejść). Kliknij, aby oglądać transmisję na pełnym ekranie."
+  },
+  "btnFullscreen": {
+    "message": "Pełny ekran"
+  },
+  "btnLater": {
+    "message": "Później"
+  },
+  "toastFullscreenRefused": {
+    "message": "Przeglądarka odrzuciła tryb pełnoekranowy. Użyj przycisku pełnego ekranu w odtwarzaczu."
+  },
+  "toastFullscreenExited": {
+    "message": "Zamknięto pełny ekran."
+  },
+  "btnBackToFullscreen": {
+    "message": "Wróć do pełnego ekranu"
+  },
+  "errNoChannel": {
+    "message": "Nie wykryto kanału na Twitchu."
+  },
+  "errNoDisplays": {
+    "message": "Nie udało się odczytać listy ekranów."
+  },
+  "screenLabel": {
+    "message": "Ekran $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(główny)"
+  },
+  "popupLookingForTab": {
+    "message": "Szukanie karty Twitcha…"
+  },
+  "popupOpenButton": {
+    "message": "Otwórz czat na drugim ekranie"
+  },
+  "popupShortcut": {
+    "message": "Skrót na stronie Twitcha:"
+  },
+  "popupScreenLegend": {
+    "message": "Ekran czatu"
+  },
+  "popupLoadingScreens": {
+    "message": "Wczytywanie ekranów…"
+  },
+  "popupFullscreenNote": {
+    "message": "Z tego menu przeglądarka nie pozwala od razu włączyć pełnego ekranu: na stronie Twitcha pojawi się przycisk „Pełny ekran”."
+  },
+  "popupChannel": {
+    "message": "Kanał: $1"
+  },
+  "popupNotChannel": {
+    "message": "Otwórz stronę kanału na Twitchu (twitch.tv/nazwa-kanalu), a potem ponownie kliknij rozszerzenie."
+  },
+  "popupOpening": {
+    "message": "Otwieranie czatu…"
+  },
+  "popupAuto": {
+    "message": "Automatycznie (drugi ekran)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— zapisany ekran nie jest już podłączony"
+  },
+  "popupLiveScreen": {
+    "message": "— ekran transmisji"
+  },
+  "popupSingleScreen": {
+    "message": "Wykryto tylko jeden ekran: czat otworzy się na tym samym ekranie."
+  },
+  "popupAutoHint": {
+    "message": "Czat otworzy się na innym ekranie niż transmisja."
+  },
+  "popupSaved": {
+    "message": "Ekran zapisany na następny raz."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}

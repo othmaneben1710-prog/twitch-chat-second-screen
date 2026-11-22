@@ -1,0 +1,125 @@
+{
+  "extName": {
+    "message": "Chat trên màn hình thứ hai cho Twitch"
+  },
+  "extDescription": {
+    "message": "Xem stream Twitch toàn màn hình trên một màn hình, trong khi khung chat tự động mở trên màn hình thứ hai của bạn."
+  },
+  "actionTitle": {
+    "message": "Mở chat trên màn hình khác"
+  },
+  "pageButton": {
+    "message": "Chat trên màn hình khác"
+  },
+  "pageButtonTitle": {
+    "message": "Mở chat trên màn hình khác của bạn và chuyển stream sang toàn màn hình ($1)"
+  },
+  "toastWrongPage": {
+    "message": "Hãy mở trang kênh Twitch (twitch.tv/ten-kenh) để dùng tính năng này."
+  },
+  "toastReload": {
+    "message": "Tiện ích đã được cập nhật: hãy tải lại trang (F5) rồi thử lại."
+  },
+  "errOpenChat": {
+    "message": "Không thể mở chat: $1"
+  },
+  "unknownError": {
+    "message": "lỗi không xác định"
+  },
+  "toastSingleScreen": {
+    "message": "Chỉ phát hiện một màn hình: chat đã mở trong cửa sổ riêng, nhưng chế độ toàn màn hình sẽ che nó. Dùng Alt+Tab để chuyển."
+  },
+  "toastSameScreen": {
+    "message": "Chat đã mở trên cùng màn hình với stream (màn hình đã lưu). Hãy đổi trong menu tiện ích."
+  },
+  "toastChatOpened": {
+    "message": "Đã mở chat trên $1."
+  },
+  "promptChatOpened": {
+    "message": "Chat đã mở trên $1. Nhấp để xem stream toàn màn hình."
+  },
+  "promptDefault": {
+    "message": "Chat đã mở. Nhấp để xem stream toàn màn hình."
+  },
+  "promptSingleScreen": {
+    "message": "Chỉ phát hiện một màn hình: chat nằm trong cửa sổ riêng (dùng Alt+Tab để chuyển tới). Nhấp để xem stream toàn màn hình."
+  },
+  "btnFullscreen": {
+    "message": "Toàn màn hình"
+  },
+  "btnLater": {
+    "message": "Để sau"
+  },
+  "toastFullscreenRefused": {
+    "message": "Trình duyệt đã từ chối chế độ toàn màn hình. Hãy dùng nút toàn màn hình của trình phát."
+  },
+  "toastFullscreenExited": {
+    "message": "Đã thoát toàn màn hình."
+  },
+  "btnBackToFullscreen": {
+    "message": "Quay lại toàn màn hình"
+  },
+  "errNoChannel": {
+    "message": "Không phát hiện kênh Twitch nào."
+  },
+  "errNoDisplays": {
+    "message": "Không thể đọc danh sách màn hình."
+  },
+  "screenLabel": {
+    "message": "Màn hình $1 — $2 × $3"
+  },
+  "screenPrimary": {
+    "message": "(chính)"
+  },
+  "popupLookingForTab": {
+    "message": "Đang tìm thẻ Twitch…"
+  },
+  "popupOpenButton": {
+    "message": "Mở chat trên màn hình khác"
+  },
+  "popupShortcut": {
+    "message": "Phím tắt trên trang Twitch:"
+  },
+  "popupScreenLegend": {
+    "message": "Màn hình hiển thị chat"
+  },
+  "popupLoadingScreens": {
+    "message": "Đang tải danh sách màn hình…"
+  },
+  "popupFullscreenNote": {
+    "message": "Từ menu này, trình duyệt không cho phép bật toàn màn hình trực tiếp: nút “Toàn màn hình” sẽ xuất hiện trên trang Twitch."
+  },
+  "popupChannel": {
+    "message": "Kênh: $1"
+  },
+  "popupNotChannel": {
+    "message": "Hãy mở trang kênh Twitch (twitch.tv/ten-kenh), rồi nhấp lại vào tiện ích."
+  },
+  "popupOpening": {
+    "message": "Đang mở chat…"
+  },
+  "popupAuto": {
+    "message": "Tự động (màn hình còn lại)"
+  },
+  "popupSavedUnplugged": {
+    "message": "— màn hình đã lưu không còn được kết nối"
+  },
+  "popupLiveScreen": {
+    "message": "— màn hình phát stream"
+  },
+  "popupSingleScreen": {
+    "message": "Chỉ phát hiện một màn hình: chat sẽ mở trên cùng màn hình."
+  },
+  "popupAutoHint": {
+    "message": "Chat sẽ mở trên màn hình khác với màn hình stream."
+  },
+  "popupSaved": {
+    "message": "Đã lưu màn hình cho lần sau."
+  },
+  "keyAlt": {
+    "message": "Alt"
+  },
+  "keyShift": {
+    "message": "Shift"
+  }
+}
